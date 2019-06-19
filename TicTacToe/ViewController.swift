@@ -11,11 +11,11 @@ import UIKit
 final class ViewController: UIViewController {
     // started tag from 1 bc default is 0
     
-    @IBOutlet var winnerLabel: UILabel!
+    @IBOutlet private var winnerLabel: UILabel!
     
-    @IBOutlet var playAgainButton: UIButton!
+    @IBOutlet private var playAgainButton: UIButton!
     
-    @IBAction func playAgain(_ sender: Any) {
+    @IBAction private func playAgain(_ sender: Any) {
         
         activeGame = true
         
